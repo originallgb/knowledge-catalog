@@ -22,13 +22,14 @@ Ensure you have the following permissions via IAM Roles:
 
 Clone the Github Repository:  
 ```shell  
-git clone https://github.com/GoogleCloudPlatform/dataplex-labs.git  
+git clone https://github.com/GoogleCloudPlatform/knowledge-catalog.git  
 ```
 
 Install the dependencies. It is recommended to create a Python Virtual Environment:  
 ```shell  
 python3 -m venv /tmp/kcsearch  
-source /tmp/kcsearch/bin/activate  
+source /tmp/kcsearch/bin/activate
+cd samples/chat_with_data_agent/knowledge_catalog_discovery_agent  
 pip3 install -r requirements.txt  
 ```
 
