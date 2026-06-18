@@ -20,6 +20,7 @@ dev = ["pytest>=7.0"]
 
 [project.scripts]
 enrichment-agent = "enrichment_agent.cli:main"
+okf-hook = "okf_hook.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
